@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Web Calculator</title>
+</head>
+<body>
+    <h1 class="head">Calculator</h1>
+    <div class="menue calcbox"id="menue">
+        
+        <div class="box">
+            <h1 id="out"></h1>
+        </div>
+        
+        <div id="stripe" class="button">
+            <button id="0" onclick="theOperator(0)">0</button>
+            <button id="1" onclick="theOperator(1)">1</button>
+            <button id="2" onclick="theOperator(2)">2</button>
+            <button id="+" onclick="theOperator('+')">+</button>
+            <button id="=" onclick="result()">=</button>
+            <br>
+            <button id="3" onclick="theOperator(3)">3</button>
+            <button id="4" onclick="theOperator(5)">4</button>
+            <button id="5" onclick="theOperator(5)">5</button>
+            <button id="-" onclick="theOperator('-')">-</button>
+            <button id="x" onclick="theOperator('*')">x</button>
+            <br>
+            <button id="6" onclick="theOperator(6)">6</button>
+            <button id="7" onclick="theOperator(7)">7</button>
+            <button id="8" onclick="theOperator(8)">8</button>
+            <button id="9" onclick="theOperator(9)">9</button>
+            <button id="/" onclick="theOperator('/')">÷</button>
+        </div>
+
+    </div>
+    <div id="thingtwo">
+        <button id="info" onclick="info()">INFO</button>
+    </div>
+    <div id="thing">
+        <button id="clear" class="button" onclick="clearOut()">CLEAR</button>
+    </div>
+
+
+    <script src="index.js"></script>
+
+    
+</body>
+<footer id="footer">
+    <hr/>
+    <h4 class="madebyme">Made with ❤️ by brathu :)</h4>
+</footer>
+</html>
